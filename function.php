@@ -1,4 +1,4 @@
-function oddeven($number){
+<?php function oddeven($number){
     if (!is_numeric($number)) {
         return "Invalid input: Please provide a number.";
     }
@@ -8,5 +8,7 @@ function oddeven($number){
     return "odd";
 } }
 
+
 $number = 3; 
 $result = oddeven($number);
+?>
